@@ -1,6 +1,6 @@
 package com.stacksimplify.restservices.controllers;
 
-import com.stacksimplify.restservices.dto.UserDetailsDto;
+import com.stacksimplify.restservices.dtos.UserDetailsDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
