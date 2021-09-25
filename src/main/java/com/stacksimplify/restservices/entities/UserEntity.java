@@ -1,6 +1,7 @@
 package com.stacksimplify.restservices.entities;
 
 import lombok.Data;
+import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
@@ -11,9 +12,9 @@ import javax.persistence.*;
 public class UserEntity {
 
     @Id
-    @GeneratedValue
     @Column(name = "ID")
-    private long id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     @Column(name = "USER_NAME", length = 50, nullable = false, unique = true)
     private String userName;
