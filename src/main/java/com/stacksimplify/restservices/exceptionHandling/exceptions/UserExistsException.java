@@ -1,4 +1,4 @@
-package com.stacksimplify.restservices.exceptions;
+package com.stacksimplify.restservices.exceptionHandling.exceptions;
 
 public class UserExistsException extends Exception {
     private static final long serialVersionUID = 1L;
