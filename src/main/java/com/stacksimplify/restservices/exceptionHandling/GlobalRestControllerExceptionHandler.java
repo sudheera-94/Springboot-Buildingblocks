@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.util.Date;
 
-//@RestControllerAdvice
+@RestControllerAdvice
 public class GlobalRestControllerExceptionHandler {
 
     @ExceptionHandler(UserNameNotFoundException.class)
